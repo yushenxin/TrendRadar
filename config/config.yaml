@@ -55,14 +55,14 @@ notification:
   # 如果你以 fork 的方式将本项目部署在 GitHub 上，请勿在此填写任何 webhooks，而是将 webhooks 填入 GitHub Secret
   # 不然轻则手机上收到奇怪的广告推送，重则存在更严重的安全隐患
   webhooks:
-    feishu_url: "" # 飞书机器人的 webhook URL
+    feishu_url: "https://open.feishu.cn/open-apis/bot/v2/hook/df1deb0c-e3af-42bb-ac78-b8c4c5e1e7d4" # 飞书机器人的 webhook URL
     dingtalk_url: "" # 钉钉机器人的 webhook URL
     wework_url: "" # 企业微信机器人的 webhook URL
     telegram_bot_token: "" # Telegram Bot Token
     telegram_chat_id: "" # Telegram Chat ID
-    email_from: EMAIL_FROM # 发件人邮箱地址
-    email_password: EMAIL_PASSWORD # 发件人邮箱密码或授权码
-    email_to: EMAIL_TO # 收件人邮箱地址，多个收件人用逗号分隔
+    email_from: "" # 发件人邮箱地址
+    email_password: "" # 发件人邮箱密码或授权码
+    email_to: "" # 收件人邮箱地址，多个收件人用逗号分隔
     email_smtp_server: "" # SMTP服务器地址（可选，留空自动识别）
     email_smtp_port: "" # SMTP端口（可选，留空自动识别）
     ntfy_server_url: "https://ntfy.sh" # ntfy服务器地址，默认使用公共服务，可改为自托管地址
